@@ -20,7 +20,7 @@ for item in data_list:
 
     dict[key][time]+=1
 
-# print(dict)
+print(dict)
 
 with open("assignment_1.1.csv",'w',newline='') as f:
     writer = csv.writer(f)
